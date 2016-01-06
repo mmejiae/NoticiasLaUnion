@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       tools:context="com.example.usercimd.practicando2.Noticia4Entretenimiento">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+    <TextView
+        android:id="@+id/Noticia4Explicacion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/noticia4"
+        android:textSize="30sp"
+
+        android:textAlignment="center"
+        />
+    <VideoView
+        android:layout_below="@+id/Noticia4Explicacion"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:id="@+id/video4"/>
+</LinearLayout>
+</ScrollView>

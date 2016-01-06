@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+     >
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#0e3a1a">
+  <ImageButton
+      android:id="@+id/video1"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:src="@drawable/n1"
+      android:onClick="noticia1"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnnoticia1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:onClick="noticia1"
+            android:text="@string/noticia1"
+            android:background="#0e3a1a"
+            android:textColor="#ffffff" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video2"
+            android:orientation="horizontal"
+            android:background="#811919">
+
+        <ImageButton
+     android:layout_marginTop="20dp"
+     android:id="@+id/video2"
+     android:layout_width="100dp"
+     android:layout_height="100dp"
+     android:src="@drawable/n2"
+            android:onClick="noticia2"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnnoticia2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:onClick="noticia2"
+            android:text="@string/noticia2"
+            android:background="#811919"
+            android:textColor="#fdfdfd" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video3"
+            android:orientation="horizontal"
+            android:weightSum="1">
+    <ImageButton
+        android:id="@+id/video3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/n3"
+        android:onClick="noticia3"/>
+
+           <Button
+               android:layout_marginTop="30dp"
+            android:id="@+id/btnnoticia3"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:onClick="noticia3"
+            android:text="@string/noticia3"
+               android:layout_weight="0.84"
+               android:background="#fefcfc" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video4"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="#0e3a1a">
+            <ImageButton
+                android:id="@+id/video4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/descarga"
+                android:onClick="noticia4"/>
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnnoticia4"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:onClick="noticia4"
+                android:text="@string/noticia4"
+                android:layout_weight="0.84"
+                android:background="#0e3a1a"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

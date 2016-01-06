@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_entretenimiento"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Entretenimiento" />
+        <item
+            android:id="@+id/nav_elperiodista"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="El perioista soy Yo" />
+        <item
+            android:id="@+id/nav_eloriente"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="El oriente" />
+        <item
+            android:id="@+id/nav_deporte"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Deportes" />
+    </group>
+
+    <item android:title="Comunicate con nosotros">
+        <menu>
+          
+            <item
+                android:id="@+id/nav_comentarios"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Envianos tus comentarios" />
+        </menu>
+    </item>
+
+</menu>

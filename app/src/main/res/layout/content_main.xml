@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.usercimd.practicando2.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualización Ultimas noticias :" />
+
+<VideoView
+    android:id="@+id/videoentrada"
+    android:layout_marginTop="25dp"
+    android:layout_below="@+id/fecha"
+    android:layout_width="380dp"
+    android:layout_height="200dp"
+    android:clickable="true"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/videoentrada"
+        android:layout_width="380dp "
+        android:layout_height="150dp"
+        android:text="En esta aplicación podras estar al tanto de lo que ocurre en la Unión Antioquia. Con información de primera mano. También nos puedes encontrar en nuestra Pagina en Facebook"
+        android:textSize="20sp"
+    android:textAlignment="center"/>
+
+</RelativeLayout>

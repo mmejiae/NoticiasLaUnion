@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.usercimd.practicando2.ElperiodistaSoyYo">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f6efef">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aumentan recursos para seguridad en La Unión tras recientes hechos vinculados al microtráfico"
+            android:textSize="20sp"
+            android:onClick="elperiodistasoyyo1"
+            android:background="#f6efef" />
+    <ImageButton
+        android:layout_marginLeft="25dp"
+        android:id="@+id/elperiodistasoyyo1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/uno"
+        android:onClick="elperiodistasoyyo1"
+        />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f6efef">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Una enfermera resultó herida en accidente de ambulancia en la vía La Unión – La Ceja"
+            android:textSize="20sp"
+            android:onClick="elperiodistasoyyo2"
+            android:background="#f6efef" />
+        <ImageButton
+            android:layout_marginLeft="25dp"
+            android:id="@+id/elperiodistasoyyo2"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/dos"
+            android:onClick="elperiodistasoyyo2"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

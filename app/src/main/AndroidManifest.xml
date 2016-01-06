@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.usercimd.practicando2">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ElperiodistaSoyYo"
+            android:label="@string/PeriodistaYo"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ElOriente"
+            android:label="@string/ElOriente"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VideosEntretenimiento"
+            android:label="Videos de Entretenimiento"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Noticia1Entretenimiento"
+            android:label="@string/noticia1"
+            android:parentActivityName=".VideosEntretenimiento">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.VideosEntretenimiento" />
+        </activity>
+        <activity
+            android:name=".Noticia2Entretenimiento"
+            android:label="@string/noticia2"
+            android:parentActivityName=".VideosEntretenimiento">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.VideosEntretenimiento" />
+        </activity>
+        <activity
+            android:name=".Noticia3Entretenimiento"
+            android:label="@string/noticia3"
+            android:parentActivityName=".VideosEntretenimiento">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.VideosEntretenimiento" />
+        </activity>
+        <activity
+            android:name=".Noticia4Entretenimiento"
+            android:label="@string/noticia4"
+            android:parentActivityName=".VideosEntretenimiento">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.VideosEntretenimiento" />
+        </activity>
+        <activity
+            android:name=".Comentarios"
+            android:label="Comentarios, sugerencias y envios"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ElperiodistaSoyYo1"
+            android:label="Aumentan recursos para seguridad en La Unión tras recientes hechos vinculados al microtráfico"
+            android:parentActivityName=".ElperiodistaSoyYo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.ElperiodistaSoyYo" />
+        </activity>
+        <activity android:name=".ElperiodistaSoyYo2"
+            android:label="Una enfermera resultó herida en accidente de ambulancia en la vía La Unión – La Ceja"
+            android:parentActivityName=".ElperiodistaSoyYo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.usercimd.practicando2.ElperiodistaSoyYo" />
+
+        </activity>
+    </application>
+
+</manifest>

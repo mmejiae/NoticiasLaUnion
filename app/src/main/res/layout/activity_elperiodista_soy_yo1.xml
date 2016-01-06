@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.usercimd.practicando2.ElperiodistaSoyYo1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aumentan recursos para seguridad en La Unión tras recientes hechos vinculados al microtráfico"
+            android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/elperiodistasoyyo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uno"/>
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tres personas fueron asesinadas en menos de una semana en este municipio del Oriente antioqueño. "
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tras los últimos asesinatos ocurridos en La Unión, los cuales estarían relacionados con un aumento en el microtráfico, las autoridades locales anunciaron que aumentarán los recursos para reforzar la seguridad.
+
+Incrementar los rubros de seguridad con el fin de aumentar el numero de policías y fortalecer economicamente el sistema de recompensas, son las acciones que anuncia la Alcaldía de La Unión frente a los recientes hechos de orden público que dejaron tres personas asesinadas en menos de una semana.
+
+“Aparentemente fueron por microtráfico estos asesinatos de muchachos relativamente jóvenes, menos de 25 años, a quienes se les encontró drogas, incluso, después de ser asesinados”, indicó Mario León Morales, Secretario de Gobierno de La Unión.
+
+En otro hecho de orden público, en la vía que conduce al corregimiento Mesopotamia, fue desmantelado un laboratorio para el procesamiento de coca: “el laboratorio tenía dos alojamientos, cocina y tenía una gran cantidad de elementos químicos”, según dijo Andrés Felipe Arteaga, personero de La Unión.
+
+Otra de las preocupaciones en la zona, son los atracos en la vía pública, los más recientes sobre la carretera que comunica a La unión con Sonsón: “cuatro personas masculinas y una femenina salieron sobre la vía y atracaron a unos vehículso. Ya se tiene información de quienes son las personas“, explicó  el capitán Julian Artunduaga, comandante Distrito 13 de Policía de Sonsón.
+
+Según la Policía, están a la espera de las órdenes de captura para realizar operativos en próximos días en la zona urbana del municipio."/>
+    </LinearLayout>
+</ScrollView>
+
+

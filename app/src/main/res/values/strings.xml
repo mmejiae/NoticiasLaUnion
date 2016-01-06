@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Noticias La Unión Antioquia</string>
+
+    <string name="hello_world">Hello </string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ingresa como usuario </string>
+    <string name="player_error">player error</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="noticia1">Postumo omenaje a Alejandro Rios, se vivio en La Union</string>
+    <string name="noticia2">EL MAGO TALALA AUGURA EXITOS A SU COMUNIDAD Y A SUS SEGUIDORES</string>
+    <string name="noticia3">La Vereda Buenavista celebro la navidad a sus niños y niñas</string>
+    <string name="noticia4">Video para demostrar que si soporta audio</string>
+    <string name="PeriodistaYo">El periodista soy YO</string>
+    <string name="ElOriente">Noticias del Oriente</string>
+    <string name="large_text">
+
+    </string>
+    <string name="title_activity_noticia4_entretenimiento">Noticia4Entretenimiento</string>
+</resources>

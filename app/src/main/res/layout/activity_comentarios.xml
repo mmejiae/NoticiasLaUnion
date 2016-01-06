@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.usercimd.practicando2.Comentarios">
+
+    <TextView
+        android:id="@+id/comentarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tienes dudas, sugerencias o comentarios puedes hacerlos llegar por medio del correo"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+<ImageView
+    android:id="@+id/ImagenComentarios"
+    android:layout_below="@+id/comentarios"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/descarga"
+    android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/Sugerencias"
+        android:layout_below="@+id/ImagenComentarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ademas si tienes videos o noticias que quieras compartir con la comunidad lo puedes hacer"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Sugerencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contactanos"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:background="#6f1111"
+        android:textColor="#ffffff"
+        android:onClick="contactanos"/>
+</RelativeLayout>

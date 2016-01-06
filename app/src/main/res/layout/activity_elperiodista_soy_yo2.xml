@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.usercimd.practicando2.ElperiodistaSoyYo2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Una enfermera resultó herida en accidente de ambulancia en la vía La Unión – La Ceja"
+            android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/elperiodistasoyyo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dos"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Una persona herida dejó el accidente de una ambulancia en el kilómetro 40, sector conocido como la Curva Tabor, en la vía que comunica al municipio de La Unión con La Ceja, en el Oriente antioqueño.
+
+El comandante encargado de la Policía de Carreteras de Antioquia, teniente Javier Contreras, explicó que la ambulancia se estrelló en una curva, al parecer por exceso de velocidad, puesto que traía una persona enferma de Medellín.
+
+En el siniestro resultó con un trauma cerebral la enfermera que atendía el paciente, quien fue remitida al igual que el enfermo, a centros asistenciales de Medellín, agregó el oficial de carreteras.
+
+Por este hecho no se afectó el tránsito vehicular en la vía que conecta a Medellín con el Valle de San Nicolás, en el Oriente antioqueño."/>
+    </LinearLayout>
+</ScrollView>
+
+
